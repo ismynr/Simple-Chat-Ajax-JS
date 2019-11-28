@@ -11,7 +11,7 @@ if (isset($_GET['pesan'])) {
 }
 
 date_default_timezone_set("Asia/Jakarta");
-$waktu = date("H:m");
+$waktu = date("H:i");
 
 if (isset($_GET['akhir'])) {
     @$akhir = $_GET['akhir'];
